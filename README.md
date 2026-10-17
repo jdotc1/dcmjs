@@ -1,3 +1,13 @@
+## DICOM objects in JavaScript applications
+
+This is a development fork of [dcmjs](https://github.com/dcmjs-org/dcmjs), a JavaScript library for manipulating DICOM data in browser and Node.js applications. Upstream includes conversion between Part 10 binary files, DICOM JSON, and a programmer-friendly object representation—useful building blocks when connecting web interfaces with imaging data.
+
+**Contribution to review:** [PR #605](https://github.com/dcmjs-org/dcmjs/pull/605) proposes validating byte counts before BufferStream reads.
+
+Try the [upstream live examples](https://master--dcmjs2.netlify.app/) and follow the package-installation instructions below. Upstream's scope and work-in-progress notes remain part of the README. The [branch comparison](https://github.com/dcmjs-org/dcmjs/compare/master...jdotc1:master) shows this fork's default branch separately from the proposal.
+
+---
+
 <div align="center">
   <h1>dcmjs</h1>
   <p>JavaScript implementation of DICOM manipulation. This code is an outgrowth of several efforts to implement web applications for medical imaging.  the package should also work fine on node.</p>
